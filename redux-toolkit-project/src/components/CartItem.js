@@ -1,10 +1,5 @@
 import { ChevronDown, ChevronUp } from "../icons";
-import {
-  removeItem,
-  clearCart,
-  increase,
-  decrease,
-} from "../features/cart/cartSlice";
+import { removeItem, increase, decrease } from "../features/cart/cartSlice";
 import { useDispatch } from "react-redux";
 
 function CartItem({ id, img, title, price, amount }) {
